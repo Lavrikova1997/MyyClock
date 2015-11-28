@@ -18,7 +18,7 @@ void iniClock(MyClock & clock)
 void dispClock(MyClock & clock) 
 {
 	dispArrow(clock.arrows);
-	delete(clock.CentralPoint);
+	delete clock.CentralPoint ;
 }
 
 void updateClock(MyClock & clock, SYSTEMTIME & currTime)

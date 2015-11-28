@@ -51,7 +51,7 @@ void update(Arrows & arrows, SYSTEMTIME & currTime)
 
 void dispArrow(Arrows & arrows)
 {
-	delete(arrows.HourArrow);
-	delete(arrows.MinuteArrow);
-	delete(arrows.SecondArrow);
+	delete arrows.HourArrow ;
+	delete arrows.MinuteArrow ;
+	delete arrows.SecondArrow ;
 }
